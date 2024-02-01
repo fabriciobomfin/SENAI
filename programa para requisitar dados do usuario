@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    //programa para requisitar dados do usuario
+    cadeia nome
+    inteiro idade
+    real peso
+
+    //solicitando dados do usuario
+    escreva("digite seu nome: ")
+    leia(nome)
+
+    escreva("digite sua idade: ")
+    leia(idade)
+
+    escreva("digite seu peso: ")
+    leia(peso)
+
+    //exibir dados
+    escreva("nome: ", nome)
+    escreva("\nidade: ", idade)
+    escreva("\npeso:", peso)
+
+  }
+}
