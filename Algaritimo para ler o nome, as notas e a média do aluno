@@ -1,0 +1,51 @@
+programa
+{
+	
+	funcao inicio()
+{
+	//    Algaritimo para ler o nome, as notas e a média do aluno
+	
+  //    declarando variavel
+  cadeia nome
+	inteiro idade
+	real nota1, nota2, nota3, media
+	//      coletar dados do usuario
+	escreva("digite seu nome: ")
+	leia(nome)
+	
+	escreva("digite sua idade: ")
+	leia(idade)
+
+	escreva("digite sua nota: ")
+	leia(nota1)
+
+	escreva("digite sua nota: ")
+	leia(nota2)
+
+	escreva("digite sua nota: ")
+	leia(nota3)
+  //    "limpa()" faz com que as mensagens a cima não sejam mostradas
+  limpa()
+//         calculando média
+     media = (nota1+nota2+nota3)/3
+     
+		
+// EXIBINDO DADOS DO USUARIO
+        escreva("        NOTAS DO ALUNO    ")
+        escreva ("\n\nNome: ",  nome)
+        escreva ("\nNota1: ", nota1)
+        escreva ("\nNota2: ", nota2)
+        escreva ("\nNota3: ", nota3)
+        escreva("\nMédia: ", media)
+
+        se (media < 7) {
+        	escreva("\nReprovado")
+        }senao{
+        	escreva("\nAprovado")
+        }
+	
+	
+	
+	
+	}
+}
