@@ -3,17 +3,25 @@ programa
 	
 	funcao inicio()
 {
-		inteiro idade
-
-		escreva("digite sua idade: ")
-		leia(idade)
-
-		se (idade > 18) {
-			escreva(" maior de idade")
-		}
-		 escreva("fim do programa")
-   
-	     }
+	//declarar variavel
+	inteiro valor
+	//pedindo para o usuario 
+	escreva(" coloque o número: ")
+	leia(valor)
+	//elaborando se e senao
+	se (valor == 10) {
+		escreva(" igual a 10 !!! ")
+	se (valor < 10)
+	     escreva("MAIOR QUE 10 !!!")
+	}senao{
+		escreva("NÃO É MAIOR QUE 10 !!!")
+	//se o valor for iguala  1o, irar escrever "igual a 10" se valor for maior, irar escrever "maior que 10" e caso não seja maior irar escrever "não é maior que 10"
+	//para que o "senao" funcione, coloque ele entre as chaves "}senao{"
+	//para que o "se" e senao funcione, coloque  o "{" após terminar de escreve na linha do codigo do "se".
+	//para que funcione corretamente, coloque o "{" no primero "se". Assim priorizarar a ordem dos comandos de forma correta.
+	}
+	}
+}
 
      codigo 2
 }
