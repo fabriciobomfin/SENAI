@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+{
+          //definindo as variaveis
+		real v1, v2, resposta
+		//pedindo os números para efetuar o calculo
+		escreva(" digite o primeiro numero: ")
+		leia(v1)
+		escreva(" digite o segundo numero: ")
+		leia(v2)
+		//pedindo a soma
+		resposta= (v1+v2)
+		escreva("o resultado da soma ", resposta)
+		//pedindo a subtração
+		resposta=(v1-v2)
+		escreva("\no resultado da subtração ", resposta)
+          //pedindo a multiplicação
+		resposta=(v1*v2)
+		escreva("\no resultado da multiplicação ", resposta)
+		//pedindo a divizão
+		resposta=(v1/v2)
+		escreva("\no resultado da divisão ", resposta)
+		
+	
