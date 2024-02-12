@@ -6,9 +6,8 @@ programa
 	//    Algaritimo para ler o nome, as notas e a média do aluno
 	
   //    declarando variavel
-  cadeia nome
-	inteiro idade
-	real nota1, nota2, nota3, media
+     cadeia nome
+	inteiro nota1, nota2, nota3,nota4, media,idade
 	//      coletar dados do usuario
 	escreva("digite seu nome: ")
 	leia(nome)
@@ -24,6 +23,9 @@ programa
 
 	escreva("digite sua nota: ")
 	leia(nota3)
+
+	escreva("digite sua nota: ")
+	leia(nota4)
   //    "limpa()" faz com que as mensagens a cima não sejam mostradas
   limpa()
 //         calculando média
@@ -36,6 +38,7 @@ programa
         escreva ("\nNota1: ", nota1)
         escreva ("\nNota2: ", nota2)
         escreva ("\nNota3: ", nota3)
+        escreva ("\nNota3: ", nota4)
         escreva("\nMédia: ", media)
 
         se (media < 7) {
@@ -44,6 +47,51 @@ programa
         	escreva("\nAprovado")
         }
 	
+	
+	
+	
+	}
+}
+CODIGO 2
+
+programa
+{
+	
+	funcao inicio()
+{
+	cadeia nome
+	
+	inteiro n1,n2,n3,n4,media,idade
+	escreva("digite seu nome: ")
+     leia(nome)
+	
+	escreva("digite sua idade: ")
+	leia(idade)
+	
+	escreva("digite sua nota: ")
+	leia(n1)
+	
+	escreva("digite sua nota: ")
+	leia(n2)
+	
+	escreva("digite sua nota: ")
+	leia(n3)
+	
+	escreva("digite sua nota: ")
+     leia(n4)
+	
+	media=(n1+n2+n3+n4)/4
+	   
+	limpa()
+	   
+	escreva("seu nome é: ",nome)
+	escreva("\nsua idade é: ",idade)
+	escreva("\nsua média é: ",media)
+	se (media>6){
+	   escreva("\nParabéns, você passsou na unidade !!!")
+	}senao{
+		escreva("\nVocê perdeu, seu imbecil.")
+	}
 	
 	
 	
