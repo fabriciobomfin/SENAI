@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+{
+
+
+	inteiro v1,v2,media,soma,mut
+
+	escreva("digite o valor: ")
+     leia(v1)
+     escreva("digite o valor: ")
+	leia(v2)
+
+     soma=(v1+v2)
+     escreva("a soma dos números é: ",soma)
+
+     mut=(v1*v2)
+     escreva("\na multiplicação dos números é: ", mut)
+     
+     media=(v1+v2)/2
+     escreva("\na média dos números é: ",media)
+
+     se (v1 >  v2){
+        escreva("\no primeiro valor digitado é maior")
+	}senao{
+		escreva("\no primeiro valor digitado é menor")
+		
+     se (v2 > v1){
+     	escreva("\ne o segundo valor digitado é maior")
+     }senao{
+     	escreva("\no segundo valor digitado é menor")
+     	
+     	
+
+
+
+     	
+     }
+	}
+	
+	
+	}
+}
