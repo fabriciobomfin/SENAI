@@ -1,0 +1,24 @@
+programa{
+	
+	funcao inicio(){
+		cadeia login,senha
+
+		escreva("Digite seu login: ")
+		leia(login)
+
+		escreva("Digite sua senha: ")
+		leia(senha)
+
+		limpa()
+		se (login=="paula"){
+			escreva("Bem Vindo")
+		se (senha=="666"){
+			
+		}
+		
+		}senao{
+			escreva("login ou senha invalidos")
+			
+		}
+	}
+}
