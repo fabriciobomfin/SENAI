@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main (){
+	float salarioMinimo = 1412.00, salarioinformado, quantidadeSalario;
+	
+	printf("Digite o salario: ");
+	scanf("%f",&salarioinformado);
+		
+	quantidadeSalario = salarioinformado / salarioMinimo;
+	
+	printf("\n== Exibindo resultados ==\n");
+	
+	printf("Quantidade de salario: %2f \n", quantidadeSalario);
+	return 0;	
+	
+}
