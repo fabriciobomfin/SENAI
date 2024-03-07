@@ -1,0 +1,22 @@
+#include <stdio.h>
+//fazer um pograma em c que solicita um valor em metros e por meio de função,
+//retorna o correspondente em centímetros.
+
+// Função para converter metros para centímetros
+float metros_para_centimetros(float metros) {
+    return metros * 100; // 1 metro = 100 centímetros
+}
+
+int main() {
+	
+    float metros;
+    printf("Digite um valor em metros: ");
+    scanf("%f", &metros);
+
+    // Chamando a função para converter metros para centímetros
+    float centimetros = metros_para_centimetros(metros);
+
+    printf("%.2f metros equivalem a %.2f centímetros.\n", metros, centimetros);
+
+    return 0;
+}
