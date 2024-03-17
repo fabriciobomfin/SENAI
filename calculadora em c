@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <locale.h> // biblioteca necessaria para deixar em português
+
+int main(){
+   setlocale(LC_ALL, "");
+
+int a, b, soma, subtracao, divicao, multiplicacao;
+
+printf("Digite o primeiro número: \n");
+scanf("%d", &a);	
+	
+printf("Digite o primeiro número: \n");
+scanf("%d", &b);
+
+soma = a + b;
+subtracao = a - b;	
+divicao = a / b;
+multiplicacao = a * b;
+
+printf("\no resultado da soma:%d\n",soma);
+printf("\no resultado da divição:%d\n",divicao);	
+printf("\no resultado da subtração:%d\n",subtracao);	
+printf("\no resultado da multiplicação:%d\n",multiplicacao);
+
+return 0;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
