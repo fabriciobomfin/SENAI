@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <locale.h>
+int main() {
+    
+	// não utilar o int dentro do for. não funciona. exmplo: for (int i = 0; i < 3; i++) {
+	setlocale(LC_ALL,"");
+	// Definindo uma matriz para armazenar as notas dos alunos
+    int notas[2][3]; // 2 alunos e 3 notas para cada aluno
+
+    // Solicitando e armazenando as notas para o aluno Marta Silva
+    printf("Digite as notas de Marta Silva:\n");
+    for ( i = 0; i < 3; i++) {
+        printf("Digite a %da nota: ", i + 1);
+        scanf("%d", &notas[0][i]); // Armazenando as notas de Marta na linha 0 da matriz
+    }
+
+    // Solicitando e armazenando as notas para o aluno João Santos
+    printf("\nDigite as notas de João Santos:\n");
+    for ( i = 0; i < 3; i++) {
+        printf("Digite a %da nota: ", i + 1);
+        scanf("%d", &notas[1][i]); // Armazenando as notas de João na linha 1 da matriz
+    }
+
+    // Mostrando as notas dos alunos
+    printf("\nNotas dos alunos:\n");
+
+    // Notas da Marta Silva
+    printf("- Marta Silva:\n");
+    for ( i = 0; i < 3; i++) {
+        printf("  %da nota: %d\n", i + 1, notas[0][i]);
+    }
+
+    // Notas do João Santos
+    printf("\n- João Santos:\n");
+    for ( i = 0; i < 3; i++) {
+        printf("  %da nota: %d\n", i + 1, notas[1][i]);
+    }
+
+    return 0;
+}
